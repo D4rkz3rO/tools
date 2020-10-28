@@ -26,8 +26,9 @@ shopt -s globstar 2> /dev/null
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
-#Grep for IP addresses
+#Grep for IP/URL
 alias grepip='grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"'
+alias grepurl='grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*'
 
 ### TAB-COMPLETION ###
 

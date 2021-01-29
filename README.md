@@ -1,6 +1,11 @@
 # Tools
 
-#### Install Environment Prereqs
+
+
+### Install Environment Prereqs
+#### Installing ZSH
+
+
 ###### GoLang
    * `sudo apt install golang -y`
    * Add /home/{USER}/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:

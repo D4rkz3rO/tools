@@ -1,7 +1,5 @@
 # Tools
 
-
-
 ### Install Environment Prereqs
 #### Installing ZSH
    * Download oh-my-zsh
@@ -28,13 +26,14 @@
 
          ```sh
          plugins=(zsh-autosuggestions, zsh-syntax-highlighting)
+          ```
 
 
 ###### GoLang
    * `sudo apt install golang -y`
    * Add /home/{USER}/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
        * `export PATH=$PATH:~/go/bin`
-       
+
 #### Install Go Tools/Add Binaries to PATH
    * `go get -u github.com/ropnop/kerbrute`
    * `go get -u github.com/sensepost/gowitness`

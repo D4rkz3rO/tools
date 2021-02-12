@@ -34,9 +34,10 @@
    * Add /home/{USER}/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
        * `export PATH=$PATH:~/go/bin`
 
-#### Install Go Tools/Add Binaries to PATH
+#### Install Tools
    * `go get -u github.com/ropnop/kerbrute`
    * `go get -u github.com/sensepost/gowitness`
+   * `apt-get install eyewitness`
 
 
 ## Install Windows VM (if needed)

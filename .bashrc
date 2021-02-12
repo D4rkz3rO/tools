@@ -27,8 +27,8 @@ shopt -s globstar 2> /dev/null
 shopt -s nocaseglob;
 
 #Grep for IP/URL
-alias grepip='grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"'
-alias grepurl='grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*'
+alias grepip='grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | sort -u'
+alias grepurl='grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"* | sort -u'
 
 ### TAB-COMPLETION ###
 
